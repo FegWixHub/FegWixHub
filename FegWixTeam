@@ -77,7 +77,7 @@ UserInputService.InputBegan:Connect(function(input)
 end)
 
 
-local jumpBindKey = Enum.KeyCode.r -- Вы можете заменить на любую другую клавишу, например, "F", "G" и т.да.
+local jumpBindKey = Enum.KeyCode.f -- Вы можете заменить на любую другую клавишу, например, "F", "G" и т.да.
 
 UserInputService.InputBegan:Connect(function(input, gameProcessedEvent)
 	if gameProcessedEvent then return end  -- Игнорируем, если событие уже обработано системой игры
